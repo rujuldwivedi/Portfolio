@@ -1,0 +1,198 @@
+{
+  "about": {
+    "name": "Rujul Dwivedi",
+    "title": "Mathematics & Computing Graduate | Full Stack Developer",
+    "bio": "Final-year B.Tech student at IIT Goa specializing in backend systems, machine learning pipelines, and intelligent systems. Passionate about music, football, and cosmology.",
+    "photo": "assets/profile.jpg",
+    "location": "Bengaluru, IN"
+  },
+  "contact": {
+    "email": "rujuldwivedi@icloud.com",
+    "phone": "+91 96951 33900",
+    "linkedin": "https://linkedin.com/in/rujuldwivedi",
+    "github": "https://github.com/rujuldwivedi",
+    "website": "https://www.rujuldwivedi.in"
+  },
+  "experience": [
+    {
+      "company": "LatentView Analytics",
+      "title": "Analyst Intern",
+      "duration": "Jan 2025 – Apr 2025",
+      "description": [
+        "Architected a hybrid NLP pipeline (BERT + LSTM) for enterprise data classification, boosting minority-class recall to 90%+.",
+        "Deployed inference via Databricks REST APIs and optimized SQL-layer performance, achieving 97.5% test accuracy."
+      ],
+      "tech": ["Python", "BERT", "LSTM", "SMOTE", "PCA", "SQL", "PyTorch"]
+    },
+    {
+      "company": "IIT Goa",
+      "title": "Research Assistant",
+      "duration": "Aug 2024 – Nov 2024",
+      "description": [
+        "Developed PINNs for Black-Scholes PDEs and integrated LSTM for temporal modeling, improving accuracy by 20%.",
+        "Modularized training pipeline with reusable loss functions and reproducibility features across 8 model variants."
+      ],
+      "tech": ["Python", "TensorFlow", "LSTM", "PDE", "Quant Finance"]
+    }
+  ],
+  "projects": [
+    {
+      "group": "Full Stack Applications",
+      "items": [
+        {
+          "title": "E-Commerce App",
+          "desc": "Deployed a secure multi-role commerce app using Spring Boot and React with PostgreSQL persistence, and Dockerized backend setup achieving sub 100ms latency.",
+          "tags": ["Spring Boot", "React", "PostgreSQL", "Docker", "JWT"],
+          "link": "https://github.com/rujuldwivedi/Full-Stack-eCommerce-App"
+        },
+        {
+          "title": "Dashboard App",
+          "desc": "Designed a full-stack goal-tracking dashboard with JWT-based authentication and Express/React stack, enabling optimum latency and 50ms query speeds using indexed MongoDB.",
+          "tags": ["Express", "React", "MongoDB", "JWT"],
+          "link": "https://github.com/rujul-dev/Dashboard"
+        }
+      ]
+    },
+    {
+      "group": "Web Scraping Tools",
+      "items": [
+        {
+          "title": "LinkedIn Messenger Tool",
+          "desc": "Automates referral DMs by scraping live data on LinkedIn, matrix-matching jobs to candidates with full browser automation and 10 requests rate limiter.",
+          "tags": ["Python", "Playwright", "LinkedIn", "Automation"],
+          "link": "https://github.com/rujuldwivedi/Linkedin-Tool"
+        },
+        {
+          "title": "Automated Email Sender",
+          "desc": "Monitors Google Sheets every 10 hours and dispatches SMTP-based emails via Colab, auto-formatting referral mails with Job ID and Job Link support.",
+          "tags": ["Python", "Colab", "SMTP", "Google Sheets"],
+          "link": "https://github.com/rujuldwivedi/Automated-Email"
+        }
+      ]
+    },
+    {
+      "group": "CS Fundamentals",
+      "items": [
+        {
+          "title": "DSA Library",
+          "desc": "Modularized a library of clean, extensible 25+ data structures and algorithms in Java supporting benchmarking, abstraction layers, and time-space tradeoff comparisons.",
+          "tags": ["Java", "DSA", "Library", "Benchmarking"],
+          "link": "https://github.com/rujuldwivedi/Java-DSA"
+        },
+        {
+          "title": "Net-OS",
+          "desc": "Hybridized a simulator using C# for 2 way TCP/UDP ops and C++ for kernel/deadlock models demonstrating mutex, priority scheduling, and cross-layer packet simulation.",
+          "tags": ["C++", "C#", "OS", "Networking"],
+          "link": "https://github.com/rujuldwived/Net-OS"
+        }
+      ]
+    },
+    {
+      "group": "Console-Based Applications",
+      "items": [
+        {
+          "title": "PawnRush",
+          "desc": "Developed a Java-based chess engine using bitboards and ANSI-colored CLI interface for 15% efficient move generation and multithreaded rule enforcement.",
+          "tags": ["Java", "Bitboards", "Chess", "Multithreading"],
+          "link": "https://github.com/rujuldwivedi/Chess-Java"
+        },
+        {
+          "title": "Cryptoseek",
+          "desc": "Created a lightweight C++ search engine using XOR-encrypted inverted index structure, optimized for 50% fast file I/O and memory-efficient query handling.",
+          "tags": ["C++", "Encryption", "Search Engine", "Inverted Index"],
+          "link": "https://github.com/rujuldwivedi/Cryptoseek"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "Languages": [
+      "Java",
+      "C++",
+      "Python",
+      "JavaScript",
+      "SQL",
+      "C#",
+      "R",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Bash"
+    ],
+    "Frameworks & Libraries": [
+      "Spring Boot",
+      "React",
+      "Tailwind",
+      "Node.js",
+      "Express",
+      ".NET",
+      "Bootstrap",
+      "Angular"
+    ],
+    "ML & DS": [
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-learn",
+      "HuggingFace",
+      "Pandas",
+      "NumPy",
+      "OpenCV"
+    ],
+    "Databases": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Firebase"],
+    "Tools & DevOps": [
+      "Docker",
+      "Git",
+      "GitLab CI/CD",
+      "Kubernetes",
+      "Postman",
+      "REST APIs",
+      "GraphQL"
+    ],
+    "CS Concepts": [
+      "OOP",
+      "Operating Systems",
+      "Networking",
+      "DBMS",
+      "System Design",
+      "DSA"
+    ],
+    "Mathematics": [
+      "Probability",
+      "Statistics",
+      "Time Series",
+      "PDEs",
+      "Numerical Methods",
+      "Game Theory"
+    ],
+    "Soft Skills": [
+      "Communication",
+      "Leadership",
+      "Creativity",
+      "Teamwork",
+      "Project Management"
+    ]
+  },
+  "achievements": [
+    "Led IIT Goa's team at the Goa Police Hackathon (2024).",
+    "Represented IIT Goa at Inter IIT Tech Meet, Bombay (2024).",
+    "Captain, IIT Goa Football Team (2023).",
+    "Lead Guitarist, College Band Orion (2023).",
+    "Core Writer, Newsletter 'Gurukul Varta' (2022).",
+    "JEE Advanced AIR 5276 out of 12.5L candidates (2021).",
+    "Scored 100% in Mathematics & Computer Science (2021)."
+  ],
+  "extras": {
+    "currentlyWatching": {
+      "title": "Collatz Conjecture – Veritasium",
+      "link": "https://www.youtube.com/watch?v=094y1Z2wpJg"
+    },
+    "currentlyListening": {
+      "title": "Those Eyes – New West",
+      "link": "https://open.spotify.com/track/5Q0qWAp2OC2pGZqn5mlPiq"
+    },
+    "currentlyReading": {
+      "title": "Dark Matter – Blake Crouch",
+      "link": "https://fable.co/book/dark-matter-by-blake-crouch-9781101904244"
+    }
+  }
+}
