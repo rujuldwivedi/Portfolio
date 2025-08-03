@@ -1,8 +1,8 @@
 {
   "about": {
     "name": "Rujul Dwivedi",
-    "title": "Mathematics & Computing Graduate | Full Stack Developer",
-    "bio": "Final-year B.Tech student at IIT Goa specializing in backend systems, machine learning pipelines, and intelligent systems. Passionate about music, football, and cosmology.",
+    "title": "Software Developer | Mathematics Enthusiast | Cosmology Aficionado",
+    "bio": "I’m drawn to systems that think, adapt, and scale. My curiosity lies at the crossroads of smart algorithms and scalable engineering, from backend architectures and ML pipelines to modeling abstract systems and financial derivatives. I speak Java and Python fluently, think in SQL, and enjoy building in Spring, React, and Node.\n\nWhen I'm not immersed in code, I’m composing music, orchestrating midfield passes, or unraveling cosmic mysteries. I believe the same mindset that optimizes an algorithm can decode a universe. So, I keep one hand in cosmology, the other in computation, and both eyes on Real Madrid and the Indian Cricket Team.",
     "photo": "assets/profile.jpg",
     "location": "Bengaluru, IN"
   },
