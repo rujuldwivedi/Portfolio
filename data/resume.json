@@ -83,7 +83,7 @@
           "title": "Net-OS",
           "desc": "Hybridized a simulator using C# for 2 way TCP/UDP ops and C++ for kernel/deadlock models demonstrating mutex, priority scheduling, and cross-layer packet simulation.",
           "tags": ["C++", "C#", "OS", "Networking"],
-          "link": "https://github.com/rujuldwived/Net-OS"
+          "link": "https://github.com/rujuldwivedi/Net-OS"
         }
       ]
     },
