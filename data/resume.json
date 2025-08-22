@@ -49,7 +49,7 @@
           "title": "Dashboard App",
           "desc": "Designed a full-stack goal-tracking dashboard with JWT-based authentication and Express/React stack, enabling optimum latency and 50ms query speeds using indexed MongoDB.",
           "tags": ["Express", "React", "MongoDB", "JWT"],
-          "link": "https://github.com/rujul-dev/Dashboard"
+          "link": "https://github.com/rujuldwivedi/Dashboard"
         }
       ]
     },
@@ -170,6 +170,11 @@
       "Creativity",
       "Teamwork",
       "Project Management"
+    ],
+    "Certifications": [
+      "Core Java Programming",
+      "Full Stack Development",
+      "Machine Learning & AI"
     ]
   },
   "achievements": [
@@ -188,11 +193,11 @@
     },
     "currentlyListening": {
       "title": "Those Eyes – New West",
-      "link": "https://open.spotify.com/track/5Q0qWAp2OC2pGZqn5mlPiq"
+      "link": "https://open.spotify.com/track/50x1Ic8CaXkYNvjmxe3WXy"
     },
     "currentlyReading": {
       "title": "Dark Matter – Blake Crouch",
-      "link": "https://fable.co/book/dark-matter-by-blake-crouch-9781101904244"
+      "link": "https://www.goodreads.com/book/show/27833670-dark-matter"
     }
   }
 }
