@@ -78,7 +78,6 @@ fetch("data/resume.json")
     renderExperience(data.experience);
     renderProjects(data.projects);
     renderSkills(data.skills);
-    renderAchievements(data.achievements);
     renderExtras(data.extras);
     renderContact(data.contact);
   });
@@ -151,15 +150,6 @@ function renderSkills(skills) {
   }
   html += `</div>`;
   document.getElementById("skills").innerHTML = html;
-}
-
-function renderAchievements(achievements) {
-  const html = `
-    <h2 class="section-title">Achievements</h2>
-    <ul style="max-width: 900px; margin: auto; line-height: 1.8;">
-      ${achievements.map((item) => `<li>🎖️ ${item}</li>`).join("")}
-    </ul>`;
-  document.getElementById("achievements").innerHTML = html;
 }
 
 function renderExtras(extras) {
