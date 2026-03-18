@@ -3,69 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Rujul Dwivedi | Software Developer & Quant Enthusiast Portfolio" />
-    <meta name="keywords" content="Rujul Dwivedi, Portfolio, IIT Goa, Java, Spring Boot, React, Machine Learning" />
+    <meta
+      name="description"
+      content="Rujul Dwivedi — Software Developer, AI & backend architecture. Bengaluru."
+    />
     <meta name="author" content="Rujul Dwivedi" />
-
-    <title>Rujul Dwivedi's Portfolio</title>
+    <title>Rujul Dwivedi</title>
     <link rel="icon" href="assets/favicon.ico" />
-
-    <!-- 🌐 Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Fira+Code&display=swap" rel="stylesheet" />
-
-    <!-- 🎨 AOS Animations & Custom Styles -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Sans+JP:wght@500&family=Syne:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- 🌠 Star Background -->
-    <div class="stars" id="stars"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="twilight-orb" aria-hidden="true"></div>
 
-    <!-- 🧭 Navbar -->
-    <nav class="navbar">
-      <div class="nav-container">
-        <a href="#" class="logo">Rujul Dwivedi</a>
-        <div class="nav-links">
-          <a href="#about">About</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#hero">Rujul Dwivedi</a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          id="nav-toggle"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="#me">Me</a>
           <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
-          <a href="#watching">Extras</a>
+          <a href="#currently">Currently</a>
           <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="hero" aria-label="Introduction">
+        <div class="hero-inner">
+          <p class="hero-greeting">Hi, I’m Rujul <span class="hero-coffee" aria-hidden="true">☕</span></p>
+          <p class="hero-stranger">Nice to have you here, stranger!</p>
+          <p class="hero-tagline">Monologuing mathematically and expressing programmatically.</p>
+          <a class="hero-cta" href="#contact">Contact</a>
         </div>
-      </div>
-    </nav>
+      </section>
 
-    <!-- 🔥 Hero Section -->
-    <section class="hero" id="hero" data-aos="fade-up">
-      <div class="hero-content">
-        <h1><span class="wave">👋</span> Hey there, I'm Rujul</h1>
-        <p>Monologuing Mathematically and Expressing Programmatically</p>
-        <a href="#contact" class="cta-button">Let’s Connect</a>
-      </div>
-    </section>
+      <section class="block" id="me" aria-labelledby="me-heading"></section>
+      <section class="block" id="experience" aria-labelledby="exp-heading"></section>
+      <section class="block" id="skills" aria-labelledby="skills-heading"></section>
+      <section class="block" id="currently" aria-labelledby="currently-heading"></section>
+      <footer class="block block--footer" id="contact" aria-labelledby="contact-heading"></footer>
+    </main>
 
-    <!-- ℹ️ About Section -->
-    <section class="section" id="about" data-aos="fade-up"></section>
-
-    <!-- 💼 Experience Section -->
-    <section class="section" id="experience" data-aos="fade-up"></section>
-
-    <!-- 🛠️ Projects Section -->
-    <section class="section" id="projects" data-aos="fade-up"></section>
-
-    <!-- 🧠 Skills Section -->
-    <section class="section" id="skills" data-aos="fade-up"></section>
-
-    <!-- 📚 Currently Watching/Listening/Reading -->
-    <section class="section" id="watching" data-aos="fade-up"></section>
-
-    <!-- 📞 Contact Section -->
-    <footer class="section" id="contact" data-aos="fade-up"></footer>
-
-    <!-- 🎬 JS Scripts -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init();</script>
     <script src="js/main.js"></script>
   </body>
 </html>

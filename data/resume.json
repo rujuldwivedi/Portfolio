@@ -1,195 +1,127 @@
 {
   "about": {
     "name": "Rujul Dwivedi",
-    "title": "Software Developer | Mathematics Enthusiast | Cosmology Aficionado",
-    "bio": "I’m drawn to systems that think, adapt, and scale. My curiosity lies at the crossroads of smart algorithms and scalable engineering, from backend architectures and ML pipelines to modeling abstract systems and financial derivatives. I speak Java and Python fluently, think in SQL, and enjoy building in Spring, React, and Node.\n\nWhen I'm not immersed in code, I’m composing music, orchestrating midfield passes, or unraveling cosmic mysteries. I believe the same mindset that optimizes an algorithm can decode a universe. So, I keep one hand in cosmology, the other in computation, and both eyes on Real Madrid and the Indian Cricket Team.",
+    "title": "Software Developer · AI & Backend Architecture",
+    "location": "Bengaluru, India",
     "photo": "assets/profile.jpg",
-    "location": "Bengaluru, IN"
+    "pitch": "An inherently chaotic universe constantly produces terabytes of unpredictable, deeply nested anomalies. I am secretly trying to impose a quiet, unified order on it before the entropy wins. If I do my job flawlessly, the system holds, the timeline is saved, and absolutely nobody knows I was here."
   },
   "contact": {
     "email": "rujuldwivedi@icloud.com",
     "phone": "+91 96951 33900",
-    "linkedin": "https://linkedin.com/in/rujuldwivedi",
+    "phoneTel": "+919695133900",
+    "whatsappTel": "919695133900",
+    "linkedin": "https://www.linkedin.com/in/rujuldwivedi",
     "github": "https://github.com/rujuldwivedi",
     "website": "https://www.rujuldwivedi.in"
   },
-  "experience": [
+  "platforms": [
+    { "label": "Apple Music", "url": "https://music.apple.com/profile/rujuldwivedi", "id": "apple-music" },
+    { "label": "Chess.com", "url": "https://www.chess.com/member/officiallyrujul", "id": "chess" },
+    { "label": "Letterboxd", "url": "https://letterboxd.com/officiallyrujul/", "id": "letterboxd" },
+    { "label": "Fable", "url": "https://fable.co/fabler/rujul-dwivedi-308354162254", "id": "fable" },
+    { "label": "Duolingo", "url": "https://www.duolingo.com/profile/rujuldwivedi/", "id": "duolingo" }
+  ],
+  "experiencePresent": [
+    {
+      "company": "Adobe",
+      "title": "Software Developer",
+      "duration": "2026 – Present",
+      "logo": "images/logo-adobe.png",
+      "description": [
+        "Architected a resilient Backend-for-Frontend proxy orchestrating complex GraphQL mutations across distributed Adobe Journey Optimizer microservices—decoupling the React frontend from API volatility and enforcing strict environment boundaries.",
+        "Engineered a deterministic, state-aware data migration engine for deeply nested marketing schemas—preventing duplication and cascading failures during entity duplication.",
+        "Built a concurrent React orchestration layer resolving fractured asynchronous API responses into a unified dependency tree without blocking the main thread.",
+        "Enforced zero-trust dual authentication and GitOps deployment via Docker, Kubernetes, Helm, and Argo CD for immutable releases."
+      ],
+      "tech": ["GraphQL", "React", "Node.js", "Docker", "Kubernetes", "Helm", "Argo CD"]
+    }
+  ],
+  "experiencePast": [
     {
       "company": "LatentView Analytics",
       "title": "Analyst Intern",
-      "duration": "Jan 2025 – Apr 2025",
+      "duration": "2025",
+      "logo": "images/logo-latentview.png",
       "description": [
-        "Architected a hybrid NLP pipeline (BERT + LSTM) for enterprise data classification, boosting minority-class recall to 90%+.",
-        "Deployed inference via Databricks REST APIs and optimized SQL-layer performance, achieving 97.5% test accuracy."
+        "Engineered a Databricks preprocessing pipeline with SMOTE to rebalance a 99.7% skewed dataset of 2M rows.",
+        "Benchmarked LSTM vs BERT, optimizing for minority-class recall from 79% to over 90%.",
+        "Delivered a classification model at 97.5% accuracy for production pipeline integration."
       ],
-      "tech": ["Python", "BERT", "LSTM", "SMOTE", "PCA", "SQL", "PyTorch"]
+      "tech": ["Python", "Databricks", "SMOTE", "BERT", "LSTM", "PyTorch"]
     },
     {
       "company": "IIT Goa",
       "title": "Research Assistant",
-      "duration": "Aug 2024 – Nov 2024",
+      "duration": "2024",
+      "logo": "images/logo-iitgoa.png",
       "description": [
-        "Developed PINNs for Black-Scholes PDEs and integrated LSTM for temporal modeling, improving accuracy by 20%.",
-        "Modularized training pipeline with reusable loss functions and reproducibility features across 8 model variants."
+        "Modeled a pricing engine with Physics-Informed Neural Networks and LSTMs on Black–Scholes PDEs—~10% error reduction vs classical baselines.",
+        "Benchmarked architectures on spatio-temporal financial data; implemented stochastic volatility in PyTorch with multi-year options backtesting."
       ],
-      "tech": ["Python", "TensorFlow", "LSTM", "PDE", "Quant Finance"]
-    }
-  ],
-  "projects": [
-    {
-      "group": "Full Stack Applications",
-      "items": [
-        {
-          "title": "E-Commerce App",
-          "desc": "Deployed a secure multi-role commerce app using Spring Boot and React with PostgreSQL persistence, and Dockerized backend setup achieving sub 100ms latency.",
-          "tags": ["Spring Boot", "React", "PostgreSQL", "Docker", "JWT"],
-          "link": "https://github.com/rujuldwivedi/Full-Stack-eCommerce-App"
-        },
-        {
-          "title": "Dashboard App",
-          "desc": "Designed a full-stack goal-tracking dashboard with JWT-based authentication and Express/React stack, enabling optimum latency and 50ms query speeds using indexed MongoDB.",
-          "tags": ["Express", "React", "MongoDB", "JWT"],
-          "link": "https://github.com/rujuldwivedi/Dashboard"
-        }
-      ]
-    },
-    {
-      "group": "Web Scraping Tools",
-      "items": [
-        {
-          "title": "LinkedIn Messenger Tool",
-          "desc": "Automates referral DMs by scraping live data on LinkedIn, matrix-matching jobs to candidates with full browser automation and 10 requests rate limiter.",
-          "tags": ["Python", "Playwright", "LinkedIn", "Automation"],
-          "link": "https://github.com/rujuldwivedi/Linkedin-Tool"
-        },
-        {
-          "title": "Automated Email Sender",
-          "desc": "Monitors Google Sheets every 10 hours and dispatches SMTP-based emails via Colab, auto-formatting referral mails with Job ID and Job Link support.",
-          "tags": ["Python", "Colab", "SMTP", "Google Sheets"],
-          "link": "https://github.com/rujuldwivedi/Automated-Email"
-        }
-      ]
-    },
-    {
-      "group": "CS Fundamentals",
-      "items": [
-        {
-          "title": "DSA Library",
-          "desc": "Modularized a library of clean, extensible 25+ data structures and algorithms in Java supporting benchmarking, abstraction layers, and time-space tradeoff comparisons.",
-          "tags": ["Java", "DSA", "Library", "Benchmarking"],
-          "link": "https://github.com/rujuldwivedi/Java-DSA"
-        },
-        {
-          "title": "Net-OS",
-          "desc": "Hybridized a simulator using C# for 2 way TCP/UDP ops and C++ for kernel/deadlock models demonstrating mutex, priority scheduling, and cross-layer packet simulation.",
-          "tags": ["C++", "C#", "OS", "Networking"],
-          "link": "https://github.com/rujuldwivedi/Net-OS"
-        }
-      ]
-    },
-    {
-      "group": "Console-Based Applications",
-      "items": [
-        {
-          "title": "PawnRush",
-          "desc": "Developed a Java-based chess engine using bitboards and ANSI-colored CLI interface for 15% efficient move generation and multithreaded rule enforcement.",
-          "tags": ["Java", "Bitboards", "Chess", "Multithreading"],
-          "link": "https://github.com/rujuldwivedi/Chess-Java"
-        },
-        {
-          "title": "Cryptoseek",
-          "desc": "Created a lightweight C++ search engine using XOR-encrypted inverted index structure, optimized for 50% fast file I/O and memory-efficient query handling.",
-          "tags": ["C++", "Encryption", "Search Engine", "Inverted Index"],
-          "link": "https://github.com/rujuldwivedi/Cryptoseek"
-        }
-      ]
+      "tech": ["PyTorch", "PINNs", "LSTM", "NumPy", "Quant"]
     }
   ],
   "skills": {
-    "Languages": [
+    "Programming Languages": [
       "Java",
       "C++",
       "Python",
-      "JavaScript",
       "SQL",
-      "C#",
-      "R",
-      "TypeScript",
-      "HTML",
-      "CSS",
-      "Bash"
-    ],
-    "Frameworks & Libraries": [
-      "Spring Boot",
-      "React",
-      "Tailwind",
-      "Node.js",
-      "Express",
-      ".NET",
-      "Bootstrap",
-      "Angular"
-    ],
-    "ML & DS": [
-      "PyTorch",
-      "TensorFlow",
-      "Scikit-learn",
-      "HuggingFace",
-      "Pandas",
-      "NumPy",
-      "OpenCV"
-    ],
-    "Databases": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Firebase"],
-    "Tools & DevOps": [
-      "Docker",
+      "JavaScript",
+      "Bash",
       "Git",
-      "GitLab CI/CD",
+      "R"
+    ],
+    "Backend & Frameworks": [
+      "Spring Boot",
+      "Microservices",
+      "React.js",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "Development Operations": [
+      "Docker",
       "Kubernetes",
-      "Postman",
-      "REST APIs",
-      "GraphQL"
+      "Jenkins",
+      "AWS",
+      "Redis",
+      "Kafka"
     ],
-    "CS Concepts": [
-      "OOP",
-      "Operating Systems",
-      "Networking",
-      "DBMS",
-      "System Design",
-      "DSA"
+    "Machine Learning": ["LLM Orchestration", "LangChain", "Agentic Workflows"],
+    "Financial Mathematics": [
+      "Stochastic Calculus",
+      "Option Pricing",
+      "Portfolio Optimization"
     ],
-    "Mathematics": [
-      "Probability",
-      "Statistics",
-      "Time Series",
-      "PDEs",
-      "Numerical Methods",
-      "Game Theory"
-    ],
-    "Soft Skills": [
-      "Communication",
-      "Leadership",
-      "Creativity",
-      "Teamwork",
-      "Project Management"
-    ],
-    "Certifications": [
-      "Core Java Programming",
-      "Full Stack Development",
-      "Machine Learning & AI"
+    "General Interests": [
+      "Competitive Football",
+      "Lead Guitar",
+      "Chess Strategies",
+      "Cosmology & Astrophysics",
+      "World Cinema"
     ]
   },
-  
   "extras": {
     "currentlyWatching": {
-      "title": "TIMELAPSE OF THE FUTURE",
-      "link": "https://www.youtube.com/watch?v=uD4izuDMUQA"
+      "title": "Timelapse of the Future",
+      "link": "https://www.youtube.com/watch?v=uD4izuDMUQA",
+      "youtubeId": "uD4izuDMUQA",
+      "kind": "video"
     },
     "currentlyListening": {
       "title": "About You",
-      "link": "https://open.spotify.com/track/3hEfpBHxgieRLz4t3kLNEg"
+      "subtitle": "The 1975",
+      "link": "https://music.apple.com/us/song/about-you/1850019038",
+      "kind": "music",
+      "poster": "images/listening.jpg"
     },
     "currentlyReading": {
-      "title": "This Is How You Lose the Time War",
-      "link": "https://www.goodreads.com/book/show/43352954-this-is-how-you-lose-the-time-war"
+      "title": "Blindsight",
+      "subtitle": "Peter Watts",
+      "link": "https://fable.co/book/blindsight-by-peter-watts-9781429955195",
+      "kind": "book",
+      "poster": "images/reading.jpg"
     }
   }
 }
