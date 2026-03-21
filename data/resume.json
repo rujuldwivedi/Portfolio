@@ -11,10 +11,17 @@
     "phone": "+91 96951 33900",
     "phoneTel": "+919695133900",
     "whatsappTel": "919695133900",
-    "music": "https://music.apple.com/profile/rujuldwivedi",
+    "linkedin": "https://www.linkedin.com/in/rujuldwivedi",
     "github": "https://github.com/rujuldwivedi",
     "website": "https://www.rujuldwivedi.in"
   },
+  "platforms": [
+    { "label": "Apple Music", "url": "https://music.apple.com/profile/rujuldwivedi", "id": "apple-music" },
+    { "label": "Chess.com", "url": "https://www.chess.com/member/officiallyrujul", "id": "chess" },
+    { "label": "Letterboxd", "url": "https://letterboxd.com/officiallyrujul/", "id": "letterboxd" },
+    { "label": "Fable", "url": "https://fable.co/fabler/rujul-dwivedi-308354162254", "id": "fable" },
+    { "label": "Duolingo", "url": "https://www.duolingo.com/profile/rujuldwivedi/", "id": "duolingo" }
+  ],
   "experiencePresent": [
     {
       "company": "Adobe",
