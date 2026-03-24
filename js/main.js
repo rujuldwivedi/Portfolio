@@ -285,6 +285,7 @@ function renderContact(contact) {
     el.innerHTML =
       '<p class="block-label contact-label" id="contact-heading">Contact</p>' +
       '<div class="contact-grid">' +
+      primaryIcons +
       '<div class="platform-row platform-row--center">' +
       "</div></div>" +
       '<p class="footer-meta">Good day to you stranger!</p>';
