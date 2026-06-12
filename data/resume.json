@@ -25,7 +25,7 @@
   "experiencePresent": [
     {
       "company": "Adobe",
-      "title": "Software Developer",
+      "title": "Member of Technical Staff",
       "duration": "2026 – Present",
       "logo": "images/logo-adobe.png",
       "description": [
@@ -35,31 +35,6 @@
         "Enforced zero-trust dual authentication and GitOps deployment via Docker, Kubernetes, Helm, and Argo CD for immutable releases."
       ],
       "tech": ["GraphQL", "React", "Node.js", "Docker", "Kubernetes", "Helm", "Argo CD"]
-    }
-  ],
-  "experiencePast": [
-    {
-      "company": "LatentView Analytics",
-      "title": "Analyst Intern",
-      "duration": "2025",
-      "logo": "images/logo-latentview.png",
-      "description": [
-        "Engineered a Databricks preprocessing pipeline with SMOTE to rebalance a 99.7% skewed dataset of 2M rows.",
-        "Benchmarked LSTM vs BERT, optimizing for minority-class recall from 79% to over 90%.",
-        "Delivered a classification model at 97.5% accuracy for production pipeline integration."
-      ],
-      "tech": ["Python", "Databricks", "SMOTE", "BERT", "LSTM", "PyTorch"]
-    },
-    {
-      "company": "IIT Goa",
-      "title": "Research Assistant",
-      "duration": "2024",
-      "logo": "images/logo-iitgoa.png",
-      "description": [
-        "Modeled a pricing engine with Physics-Informed Neural Networks and LSTMs on Black–Scholes PDEs—~10% error reduction vs classical baselines.",
-        "Benchmarked architectures on spatio-temporal financial data; implemented stochastic volatility in PyTorch with multi-year options backtesting."
-      ],
-      "tech": ["PyTorch", "PINNs", "LSTM", "NumPy", "Quant"]
     }
   ],
   "skills": {
