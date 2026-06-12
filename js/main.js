@@ -186,12 +186,6 @@
     });
     html += "</div>";
 
-    html += '<div class="exp-era exp-era--past">Past</div><div class="exp-stack exp-stack--past">';
-    past.forEach(function (exp) {
-      html += experienceCardHtml(exp, true);
-    });
-    html += "</div>";
-
     el.innerHTML = html;
   }
 
